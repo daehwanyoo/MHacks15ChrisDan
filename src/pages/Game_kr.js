@@ -10,7 +10,7 @@ const Game_kr = (props) => {
 			<ul>
 				<li><button onClick={() => navigate('/lan/kr/cross')}>Crossword Game</button></li>
 				<li><button onClick={() => navigate('/lan/kr/matching')}>Matching Game</button></li>
-                <li><button onClick={() => navigate('/lan/')}>return to menu</button></li>
+                <li><button onClick={() => navigate('/')}>return to menu</button></li>
 			</ul>
 		</>
 	);
