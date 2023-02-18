@@ -9,7 +9,8 @@ import Game_kr_cross from './pages/games/Game_kr_cross'
 import Game_pt_cross from './pages/games/Game_pt_cross'
 import Game_kr_match from './pages/games/Game_kr_match'
 import Game_pt_match from './pages/games/Game_pt_match'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Button from 'react-bootstrap/Button';
 
 
 const App = () => {
