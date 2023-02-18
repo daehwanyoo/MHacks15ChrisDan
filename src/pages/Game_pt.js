@@ -6,11 +6,19 @@ const Game_pt = (props) => {
 	const navigate = useNavigate();
 	return (
 		<>
-			<h3>Please select one of the 2 games below:</h3>
+			<blockquote class="blockquote text-center">
+ 	 <p class="mb-0">Please select one of the 2 games below:</p>
+ 	 </blockquote>
 			<ul>
-				<li><button onClick={() => navigate('/lan/pt/cross')}>Crossword Game</button></li>
-				<li><button onClick={() => navigate('/lan/pt/matching')}>Matching Game</button></li>
-				<li><button onClick={() => navigate('/')}>return to menu</button></li>
+				<div class="text-center">
+					<a href="/lan/pt/cross" class="btn btn-primary" role="button">Crossword Game</a>
+				</div>
+				<div class="text-center">
+					<a href="/lan/pt/matching" class="btn btn-primary" role="button">Matching Game</a>
+				</div>
+				<div class="col border-end  d-flex justify-content-center align-items-center">
+					<a href="/" class="btn btn-primary" role="button">return to menu</a>
+				</div>
 			</ul>
 		</>
 	);

@@ -8,12 +8,16 @@ const Main = (props) => {
 	const navigate = useNavigate();
 	return (
 		<>
-			<h3>Select Language</h3>
+			<blockquote class="blockquote text-center">
+ 	 <p class="mb-0">Please select one of the 2 languages below:</p>
+ 	 </blockquote>
 			<ul>
-			<a href="/lan/pt" class="btn btn-info" role="button">Portuguese</a>
-			<li/>
-			<a href="/lan/kr" class="btn btn-info" role="button">Korean</a>
-				
+				<div class="text-center">
+					<a href="/lan/pt" class="btn btn-primary" role="button">Portuguese</a>
+				</div>
+				<div class="text-center">
+					<a href="/lan/kr" class="btn btn-primary" role="button">Korean</a>
+				</div>
 			</ul>
 		</>
 	);

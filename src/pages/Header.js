@@ -4,8 +4,10 @@ import { Link } from 'react-router-dom';
 function Header(props) {
     return (
         <>
-            <Link to="/">
-                <h1>Practicely</h1>
+            <Link to="/"><blockquote class="blockquote text-center">
+ 	 <h1>Practicely</h1>
+ 	 </blockquote>
+                
             </Link>
         </>
     );
