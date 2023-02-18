@@ -11,7 +11,6 @@ const Game_pt = (props) => {
 				<li><button onClick={() => navigate('/lan/pt/cross')}>Crossword Game</button></li>
 				<li><button onClick={() => navigate('/lan/pt/matching')}>Matching Game</button></li>
 				<li><button onClick={() => navigate('/lan/')}>return to menu</button></li>
-
 			</ul>
 		</>
 	);
