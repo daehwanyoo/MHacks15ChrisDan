@@ -8,8 +8,10 @@ const Game_pt = (props) => {
 		<>
 			<h3>Please select one of the 2 games below:</h3>
 			<ul>
-				<li><button onClick={() => navigate('/lan/pt/matching')}>Crossword Game</button></li>
-				<li><button onClick={() => navigate('/lan/pt/cross')}>Matching Game</button></li>
+				<li><button onClick={() => navigate('/lan/pt/cross')}>Crossword Game</button></li>
+				<li><button onClick={() => navigate('/lan/pt/matching')}>Matching Game</button></li>
+				<li><button onClick={() => navigate('/lan/')}>return to menu</button></li>
+
 			</ul>
 		</>
 	);

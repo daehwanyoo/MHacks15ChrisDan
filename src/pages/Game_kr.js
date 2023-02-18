@@ -8,8 +8,9 @@ const Game_kr = (props) => {
 		<>
 			<h3>Please select one of the 2 games below:</h3>
 			<ul>
-				<li><button onClick={() => navigate('/lan/kr/matching')}>Crossword Game</button></li>
-				<li><button onClick={() => navigate('/lan/kr/cross')}>Matching Game</button></li>
+				<li><button onClick={() => navigate('/lan/kr/cross')}>Crossword Game</button></li>
+				<li><button onClick={() => navigate('/lan/kr/matching')}>Matching Game</button></li>
+                <li><button onClick={() => navigate('/lan/')}>return to menu</button></li>
 			</ul>
 		</>
 	);
