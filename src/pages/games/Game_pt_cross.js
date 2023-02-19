@@ -32,7 +32,7 @@ const data = {
             col: 0,
           },
           5: {
-            clue: 'Husband of the queen',
+            clue: 'Husband of the queen (backwards)',
             answer: 'REI',
             row: 4,
             col: 1,
